@@ -22,11 +22,13 @@ public class BasicAuthentication {
 	public void notdata()
 	{
 		//changes to be made
+		System.out.println("New changes");
 	}
 	
 	public void newbranch()
 	{
 		//changes to be made
+		System.out.println("New changes");
 	}
 
 }
