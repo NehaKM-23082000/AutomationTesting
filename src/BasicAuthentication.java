@@ -18,5 +18,15 @@ public class BasicAuthentication {
 		System.out.println("hello new changes made");
 		System.out.println("hello new changes made by second user");
 		}
+	
+	public void notdata()
+	{
+		//changes to be made
+	}
+	
+	public void newbranch()
+	{
+		//changes to be made
+	}
 
 }
