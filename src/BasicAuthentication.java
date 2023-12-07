@@ -16,6 +16,7 @@ public class BasicAuthentication {
 		((HasAuthentication)driver).register(uriPredicate,UsernameAndPassword.of("foo","bar"));
 		driver.get("https://httpbin.org/basic-auth/foo/bar");
 		System.out.println("hello new changes made");
+		System.out.println("hello new changes made by second user");
 		}
 
 }
