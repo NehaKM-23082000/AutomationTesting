@@ -15,6 +15,7 @@ public class BasicAuthentication {
 		Predicate<URI> uriPredicate=uri->uri.getHost().contains("http://httpbin.org");
 		((HasAuthentication)driver).register(uriPredicate,UsernameAndPassword.of("foo","bar"));
 		driver.get("https://httpbin.org/basic-auth/foo/bar");
-	}
+		System.out.println("hello new changes made");
+		}
 
 }
